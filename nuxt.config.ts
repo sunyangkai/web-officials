@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
   routeRules: {
-    '/csr-empty': { ssr: false }
+    '/vue3': { ssr: false }
   },
   runtimeConfig: {
     newsApiUrl: process.env.NEWS_API_URL || ''
